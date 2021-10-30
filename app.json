@@ -8,7 +8,7 @@
             "description": "telegram bot token here",
             "required": true
         },
-        "KUKI_KEY": {
+        "ShadowZ_KEY": {
             "description": "Contact https://t.me/Best_Friends15 for free Api Key.",
             "required": true
         },
