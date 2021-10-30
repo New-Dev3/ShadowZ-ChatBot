@@ -34,7 +34,7 @@ async def kukiai(client: Client, message: Message):
 
   Kuki =   requests.get(f"https://kukiapi.xy/api/apikey={KUKI_KEY}/botname/owner/message={msg}").json()
 
-  moezilla = f"{Kuki['reply']}"
+  moezilla = f"{ShadowZ['reply']}"
       
   await client.send_chat_action(message.chat.id, "typing")
   await message.reply_text(moezilla)
