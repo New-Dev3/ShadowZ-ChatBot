@@ -11,11 +11,11 @@ API_ID = os.environ.get("API_ID", None)
 API_HASH = os.environ.get("API_HASH", None) 
 TOKEN = os.environ.get("TOKEN", None) 
 BOT_ID = os.environ.get("BOT_ID", None)
-KUKI_KEY = os.environ.get("KUKI_KEY", None)
+KUKI_KEY = os.environ.get("ShadowZ_KEY", None)
 
 
 kuki = Client(
-      "KukiBot",
+      "ShadowZBot",
       api_id=API_ID,
       api_hash=API_HASH,
       bot_token=TOKEN,
